@@ -12,24 +12,13 @@ body {
     box-shadow: 5px 10px 8px #888888;
 }
 
-/* #monty-hall {
-    padding: 100px 0;
-} */
-
-.button {
-}
-
 .button-visible {
     background-color: orange;
     padding: 20px;
-}
-
-.button-visible, .button-border {
     border-radius: 10px;
 }
 
 .door-border, .button-border {
-    /* width: 20%; */
     display: inline-block;
     margin: 0 20px;
     padding: 7px;
@@ -49,23 +38,13 @@ body {
     border-radius: 2%;
 }
 
-/* .door-closed {
-    background-color: brown;
-}
-
-.door-open {
-    background-color: yellow;
-} */
-
 #panel {
-    /* background-color: green; */
     height: 220px;
     padding: 20px 50px;
 }
 
 #announcement {
     height: 75px;
-    /* background-color: red; */
 }
 
 #tally {

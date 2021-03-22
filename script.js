@@ -5,7 +5,7 @@ const carsWon = document.getElementById('cars-won')
 const goatsWon = document.getElementById('goats-won')
 
 let phase = 1
-let carIndex = 0 // The location of the car.
+let carIndex // The location of the car.
 let chosenDoor // The location of the chosen door.
 
 
@@ -25,11 +25,11 @@ button1.element = document.getElementById('button1')
 button1.border = document.getElementById('button-border1'),
 
 button0.element.addEventListener('click', function() {
-    nextPhase(phase === 3 ? 'stay' : false)
+    nextPhase()
 })
 
 button1.element.addEventListener('click', function() {
-    nextPhase(phase === 3 ? 'swap' : false)
+    nextPhase('swap')
 })
 
 button0.element.addEventListener('mouseover', function() {
