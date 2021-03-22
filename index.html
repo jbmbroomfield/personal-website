@@ -2,10 +2,54 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="style.css">
-  <title>JBMB</title>
+  <title>James Broomfield</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Hello there!</h1>
-  <!-- <script src="script.js"></script> -->
+  <div id="intro">
+    <h1>James Broomfield</h1>
+    <h2>Full-Stack Web Developer</h2>
+    <p>
+      Skills
+      <ul>
+        <li>Python</li>
+        <li>Javascript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+    </p>
+  </div>
+  <div id="monty-hall">
+    <h2>The Monty Hall Problem</h2>
+    <p>
+      The <a href="https://en.wikipedia.org/wiki/Monty_Hall_problem">Monty Hall Problem</a> is a classic probability problem.
+      You are a contestant on a game show presented with three doors.
+      Behind one of the doors is a car. Behind the other two, goats.
+      Try for yourself and see if you can win the car!
+    </p>
+    <div id="panel">
+      <h3 id="announcement">Choose a door.</h3>
+      <div class="button-border" id="button-border0"><div class="button" id="button0"></div></div>
+      <div class="button-border" id="button-border1"><div class="button" id="button1"></div></div>
+    </div>
+    <br>
+    <div class="door-border" id="door-border0"><div id="door0"></div></div>
+    <div class="door-border" id="door-border1"><div id="door1"></div></div>
+    <div class="door-border" id="door-border2"><div id="door2"></div></div>
+    <div id="tally">
+      <table>
+        <tr>
+          <td>Cars Won</td>
+          <td id="cars-won">0</td>
+        </tr>
+        <tr>
+          <td>Goats Won</td>
+          <td id="goats-won">0</td>
+          <tr></tr>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>

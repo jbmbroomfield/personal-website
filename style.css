@@ -1,0 +1,73 @@
+body {
+    padding: 0 200px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#intro, #monty-hall {
+    margin: 50px;
+    padding: 50px 100px;
+    background-color: #efefef;
+    border-radius: 25px;
+    border: solid #555 1px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+/* #monty-hall {
+    padding: 100px 0;
+} */
+
+.button {
+}
+
+.button-visible {
+    background-color: orange;
+    padding: 20px;
+}
+
+.button-visible, .button-border {
+    border-radius: 10px;
+}
+
+.door-border, .button-border {
+    /* width: 20%; */
+    display: inline-block;
+    margin: 0 20px;
+    padding: 7px;
+    border-radius: 2px;
+}
+
+.door-border-highlighted, .button-border-highlighted {
+    background-color: yellow;
+}
+
+.door-border-chosen {
+    background-color: green;
+}
+
+.door {
+    height: 500px;
+    border-radius: 2%;
+}
+
+/* .door-closed {
+    background-color: brown;
+}
+
+.door-open {
+    background-color: yellow;
+} */
+
+#panel {
+    /* background-color: green; */
+    height: 220px;
+    padding: 20px 50px;
+}
+
+#announcement {
+    height: 75px;
+    /* background-color: red; */
+}
+
+#tally {
+    padding: 20px 0;
+}
